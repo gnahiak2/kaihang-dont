@@ -1,4 +1,5 @@
 import os
+import re
 import dotenv
 
 from slack_bolt import App
@@ -19,11 +20,12 @@ app = App(
     signing_secret = slack_signing_secret
 )
 
-@app.message('singapore')
+@app.message(re.compile(r'singapore', re.IGNORECASE))
 def singapore(event, say, logger):
     logger.info(f'oooo theres a event -> {event}')
 
-    say(f'kaihang dont')
+    # reply in the thread if the message was in one, otherwise in the channel
+    say(text='kaihang dont', thread_ts=event.get('thread_ts'))
 
 if __name__ == "__main__":
     SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"]).start()
