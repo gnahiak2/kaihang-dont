@@ -8,8 +8,7 @@ here's an AWESOME screenshot of my project :3
 ![awesome gif](https://coral.hackclub.com/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--973be16cd3778f84c5db4c53572f0540f75b28ad/Screenshot%20From%202026-11-18%2015-48-49.png)
 
 ## demo
-any channel with the bot added works but heres a video
-![video :3](https://drive.google.com/file/d/1-cgBUC4QZuvmagGk0arL4KSuGogJNHYN/view?usp=sharing)
+any channel with the bot added works but heres a [video :3](https://drive.google.com/file/d/1-cgBUC4QZuvmagGk0arL4KSuGogJNHYN/view?usp=sharing)
 
 ## HOW THIS WAS MADE
 this project was made in [Python](https://www.python.org/) with the [Slack Bolt for Python SDK](https://docs.slack.dev/tools/bolt-python/)
